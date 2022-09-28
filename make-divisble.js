@@ -1,8 +1,8 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-let userinput = number(prompt("enter a number for a variable"));
-let userinput2 = number(prompt("enter number for a variable y: "));
-let output = number();
+let userinput = Number(prompt("enter a number for a variable"));
+let userinput2 = Number(prompt("enter number for a variable y: "));
+let output = Number();
 
 output = userinput % userinput2;
 
