@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')({sigint: true});
 
 console.log(" How many fibonacci values would you like to see? ");
-let n = number(prompt("enter a value for 'n' "));
+let n = Number(prompt("enter a value for 'n' "));
 
 let num0 = 0;
 let num1 = 1;
