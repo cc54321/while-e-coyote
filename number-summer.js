@@ -7,6 +7,6 @@ let sum = 0;
 
 while(num > 0){
 sum += num;
-num = number(prompt('> '));
+num = Number(prompt('> '));
 }
 console.log(sum);
